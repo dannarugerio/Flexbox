@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Courier New', Courier, monospace
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+
+  align-content: normal; /* Default */
+  align-content: flex-start; /* lleva las lineas hacia el cross-star */
+  align-content: flex-end; /* Lleva las lineas hacia el cross-end */
+  align-content: center; /* Lleva las lineas hacia el centro del cross-axis */
+  align-content: space-around; /* Distribuye el espacio arriba y abajo de los elementos */
+  align-content: space-between; /* Distribuye el espacio entre las lineas sin consinderar los bordes */
+  align-content: space-evenly; /* Distribuye el espacio proporcionalmente entre las lineas incluyendo los bordes*/
+  align-content: stretch; /* Entran las lineas en el espacio disponible. Las lineas deben tener alto default */
+
+  width: 150px;
+  height: 100vh;
+  background-color:cadetblue;
+}
+
+.item {
+  width: 150px;
+  height: 100px;
+  background-color: lightblue;
+  text-align: center;
+  background-color: lightskyblue;
+}
