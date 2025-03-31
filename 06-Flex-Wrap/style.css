@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+
+  justify-content: center;
+
+  flex-wrap: nowrap; /* Default.Esto no fuerza el salto de linea */
+  flex-wrap: wrap;
+  gap: 16px;
+
+  width: 500px;
+  height: 500px;
+  background-color: rosybrown;
+  padding: 16px 0px;
+
+}
+
+.item {
+  width: 150px;
+/*   height: 50px; */
+  background-color: mistyrose;
+  border: 1px solid lightcoral;
+  text-align: center;
+}
