@@ -6,4 +6,110 @@
 
 body {
   font-family: sans-serif;
+} 
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid indianred;
+}
+
+h1 {
+  color:indianred;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+a {
+  font-weight: bold;
+  color:rgb(250, 145, 163);
+  text-decoration: none;
+}
+
+a:hover {
+  color: indianred;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+}
+
+aside {
+  padding: 1rem;
+  background-color:mistyrose;
+} 
+
+h2 {
+  color: indianred;
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  color:indianred;
+  margin-bottom: 0.5rem;
+}
+section {
+  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-content: flex-start;
+  background-color:rgb(253, 212, 208);
+}
+
+.card {
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  background-color: mistyrose;
+}
+
+.card:hover {
+  background-color: rgb(253, 212, 208);
+}
+
+img {
+  border-radius: 0.5rem;
+}
+
+h3 {
+  margin: 0.5rem 0;
+  color:indianred;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.copyright {
+  color: rgb(250, 145, 163);
+}
+
+.socialmedia {
+  display: flex;
+  gap: 1rem;
+}
+
+.socialmedia a {
+  font-size: 1.2rem;
+  padding: 0.5rem;
 }
